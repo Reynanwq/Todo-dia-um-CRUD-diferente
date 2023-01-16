@@ -19,14 +19,16 @@ Criar CRUD em menos de 1 HORA
 <h2 align="center">🛠 Technologies Used:</h2>
 <table align="center">
   <tr>
+    <td>JavaScript</td>
     <td>NodeJS</td>
     <td>Express</td>
     <td>Postman</td>
     <td>MongoDB</td>
-    <td>Postman</td>
+    <td>Mongoose</td>
+    <td>Nodemon</td>
     <td>EJS</td>
     <td>JSON</td>
-     <td>git</td>
+    <td>Git & Github</td>
   </tr>
 </table>
 
