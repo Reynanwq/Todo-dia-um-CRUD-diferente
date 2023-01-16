@@ -27,4 +27,4 @@ app.get('/home', (req, res) => {
 });
 
 const port = 1010;
-app.listen(port, () => console.log(`Server is runnig in the port ${port}`));
+app.listen(port, () => console.log(`The Server is runnig in the port ${port}`));
