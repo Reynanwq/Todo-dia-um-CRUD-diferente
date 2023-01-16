@@ -26,5 +26,5 @@ app.get('/home', (req, res) => {
     res.json({ message: 'Helo express' })
 });
 
-const port = 1010;
+const port = 3000;
 app.listen(port, () => console.log(`The Server is runnig in the port ${port}`));
