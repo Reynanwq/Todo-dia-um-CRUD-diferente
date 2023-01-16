@@ -1,1 +1,2 @@
-Aqui estão os comandos utilizados no terminal
+- npm init
+- npm install nodemon mongoose express dotenv npx
