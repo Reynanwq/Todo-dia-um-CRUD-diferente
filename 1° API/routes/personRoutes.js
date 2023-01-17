@@ -35,6 +35,25 @@ router.get('/', async(req, res) => {
     }
 });
 
+/* LER OS DADOS DO USUARIO PELO ID*/
+
+router.get('/:id', async(req, res) => {
+    const id = req.params.id; //pegando o que está sendo passado após a barrra
+  try{
+     const user = await Person.findOne({ _id : id }); //encontra apenas 1 resultado e ele deve ser igual o id da requisição
+     if(!user){
+        res.status(442).json({ message: 'O usuario não foi encontrado'})
+        /* HTTP 442 
+        O servidor entender o processo que está ocorrendo, mas não foi possível processar a instrução que estásendo passada
+        */
+        return
+     }
+     res.status(200).json(user);
+ } catch(error){
+    res.status(500).json({ error: error })
+  }
+});
+
 
 /* ATUALIZAR USUARIO */
 
