@@ -57,6 +57,27 @@ router.get('/:id', async(req, res) => {
 
 /* ATUALIZAR USUARIO */
 
+router.patch('/:id', async(req, res) => {
+    const id = req.params.id;
+    const { name, email, salary, age, approveed } = req.body
+    
+    const person = {
+        name,
+        email,
+        salary,
+        age,
+        approved
+    }
+    
+    try{
+        const updateUser = Person.updateOne({ _id: id }, person);
+        res.status(200).json(updateUser);
+    }catch(error){
+        res.status(500).json({ error : error })
+    }
+});
+
+
 /* DELETE USUARIO */
 
 /* ----------------- ROTAS DA MINHA API FINAL ------------------- */
