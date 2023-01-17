@@ -42,11 +42,11 @@ router.get('/:id', async(req, res) => {
   try{
      const user = await Person.findOne({ _id : id }); //encontra apenas 1 resultado e ele deve ser igual o id da requisição
      if(!user){
-        res.status(442).json({ message: 'O usuario não foi encontrado'})
+        res.status(442).json({ message: 'O usuario não foi encontrado'});
         /* HTTP 442 
         O servidor entender o processo que está ocorrendo, mas não foi possível processar a instrução que estásendo passada
         */
-        return
+        return;
      }
      res.status(200).json(user);
  } catch(error){
@@ -70,7 +70,7 @@ router.patch('/:id', async(req, res) => {
     }
     
     try{
-        const updateUser = Person.updateOne({ _id: id }, person);
+        const updateUser = await Person.updateOne({ _id: id }, person);
         res.status(200).json(updateUser);
     }catch(error){
         res.status(500).json({ error : error })
@@ -79,6 +79,25 @@ router.patch('/:id', async(req, res) => {
 
 
 /* DELETE USUARIO */
+
+router.delete('/:id', async(req, res) => {
+    const id = req.params.id;
+    //na requisição delete, primeiro é importante verificar s etem usuarios no nosso banco de dados.
+    const usaers = await Person.find();
+    if(!users){
+        res.status(442).json({ message: 'O usuario não foi encontrado '});
+        return;
+    }
+   try{
+        const deleteUser = await Person.deleteOne({ _id: id });
+        res.status(200).json({ message: 'usuario removido com sucesso' })
+    }catch(error){
+        res.status(500).json({ error: error})
+    }
+});
+
+
+//adicionar a opção de deletar todos os usuarios em outra API
 
 /* ----------------- ROTAS DA MINHA API FINAL ------------------- */
 
