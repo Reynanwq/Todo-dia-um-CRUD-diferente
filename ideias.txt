@@ -1,0 +1,3 @@
+- Adicionar opção de deletar todos os usuarios
+
+- Crud que pega todos os PLAYERS da T1
