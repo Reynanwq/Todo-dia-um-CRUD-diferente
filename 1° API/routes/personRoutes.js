@@ -23,7 +23,18 @@ router.post('/', async(req, res) => {
         res.status(500).json({ error: error })
     }
 });
+
 /* LER DADOS DAS PESSOAS USUARIO */
+
+router.get('/', async(req, res) => {
+    try{
+  const users =  await Person.find() //usar o método fin{}
+  res.status(200).json(users); //minha resposta são os usuários que eu peguei
+    } catch(error){
+        res.status(500).json({ error: error })
+    }
+});
+
 
 /* ATUALIZAR USUARIO */
 
