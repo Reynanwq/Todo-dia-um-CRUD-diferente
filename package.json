@@ -11,6 +11,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^6.8.4",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "npx": "^10.2.2"
   }
 }
