@@ -1,0 +1,1 @@
+API com a opção de deletar todos os usuários inclusa nela.
