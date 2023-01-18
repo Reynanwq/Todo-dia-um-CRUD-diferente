@@ -1,0 +1,5 @@
+- npm init
+
+- npm install express mongoose nodemon
+
+- npm install dotenv

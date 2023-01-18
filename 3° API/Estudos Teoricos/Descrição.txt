@@ -1,1 +1,6 @@
 API com a função de deletar todos os usuarios
+
+Testar no postman
+criar 4 usuarios 
+e deleta-los
+criar 5 usuarios
