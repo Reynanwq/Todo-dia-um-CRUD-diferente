@@ -1,0 +1,12 @@
+{
+  "name": "fourapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4"
+  }
+}

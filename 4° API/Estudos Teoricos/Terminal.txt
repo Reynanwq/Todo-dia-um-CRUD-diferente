@@ -1,0 +1,4 @@
+- yarn init -y
+- yarn add typescript ts-node-dev -D
+-  sudo yarn add -DE typescript
+- sudo npx tsc --init (instala o arquivo tsconfig.json)
