@@ -1,10 +1,12 @@
 {
   "name": "fourapi",
   "version": "1.0.0",
-  "description": "api com typescript",
-  "main": "index.js",
+  "description": "API com typescript",
+  "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon --exec ts-node src/server.ts"
   },
   "author": "",
   "license": "ISC",
