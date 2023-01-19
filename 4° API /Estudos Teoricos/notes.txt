@@ -1,0 +1,3 @@
+cors: permite que a minha api seja acessada por aplicações externas
+
+morgan: ajuda no log das requisições http do projeto

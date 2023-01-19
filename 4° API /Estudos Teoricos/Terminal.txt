@@ -1,0 +1,17 @@
+ionstalando com o yarn - não recomendado
+
+- yarn init -y
+- yarn add typescript ts-node-dev -D
+-  sudo yarn add -DE typescript
+- sudo npx tsc --init (instala o arquivo tsconfig.json)
+
+instalando comm o npm - recomendado
+
+- npm init
+- npm i -D 
+- npm i -D nodemon
+- npm i -D typescript
+- npm i -D @types/express
+- npm i express
+- npm i cors
+- npm i morgan
