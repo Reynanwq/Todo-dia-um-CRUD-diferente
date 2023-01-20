@@ -11,3 +11,5 @@ app.use(express.json()) //essa parte sempre deve está, pois faclita o uso da le
 app.use(cors()); //pesquisar sobre
 app.use(logger('dev')); //dev é do meu packge.json
 app.use('/', router);
+
+//basicamente importações e permissões para o uso
