@@ -1,0 +1,1 @@
+apenas criando uma api com express e typescript, sem o CRUD em sí

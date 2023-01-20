@@ -1,0 +1,10 @@
+- npm init
+- npm install -D
+- npm i -D nodemon
+- npm i -D mongoose
+- npm i -D nodemon
+- npm i -D typescript
+- npm i -D @types/express
+- npm i express
+- npm i cors
+- npm i morgan

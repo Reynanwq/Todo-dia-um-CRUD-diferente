@@ -1,0 +1,5 @@
+Estudos Teoricos: comandos para instalar, descrição da api.
+Pasta SRC: contém tudo sobre o código da api
+Pasta routes: contém o arqui em que terá as aplicações/métodos do CRUD
+app.ts: programa principal
+server.ts:  configurações do servidor
