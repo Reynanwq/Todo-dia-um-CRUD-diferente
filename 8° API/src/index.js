@@ -4,6 +4,12 @@ const port = process.env.PORT || 8080;
 app.use(express.json());
 
 const cursos = ['FullStack Master', 'Desenvolvimento de Games', 'Viver de Youtube'];
+/* FullStack: 0
+   Desenvolvimento de Game: 1
+   Viver de youtube: 2    
+*/
+
+//CRUD -> CREATE, READ, UPDATE, DELETE
 
 //retorna um curso especifico
 app.get('/curso/:index', (req, res) => {
@@ -33,7 +39,9 @@ app.patch('/cursos/:index', (req, res)=> {
 
 //deletar um usuario
 app.delete('/cursos/:index', (req, res) => {
-    
+    const { index } = req.params; //solicitando que o usuario passe um id para ser deletado
+    cursos.splice(index, 1); //splice remove o id que estivar ali dentro
+    res.status(200).json({ massage: 'O curso foi deletado'})
 });
 
 app.listen(port, () => console.log('Server running'));
