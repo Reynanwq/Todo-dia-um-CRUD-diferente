@@ -1,0 +1,1 @@
+API com CRUD tratando os jogadores da LJL.
