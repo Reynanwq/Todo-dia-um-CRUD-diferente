@@ -1,0 +1,1 @@
+API com CRUD tratando de Regiões que exercem o campeonato de league of legends.
