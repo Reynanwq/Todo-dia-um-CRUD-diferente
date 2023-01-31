@@ -1,1 +1,1 @@
-API com CRUD contendo informaç
+API com CRUD contendo informação dos times da vcs
