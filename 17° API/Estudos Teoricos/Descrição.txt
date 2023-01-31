@@ -1,0 +1,1 @@
+API com CRUD tratando de informações dos estudantes. Seja nome, curso, idade e email.
