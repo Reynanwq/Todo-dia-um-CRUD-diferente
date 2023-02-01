@@ -1,0 +1,3 @@
+Hi static file
+
+(para exibir este arquivo estático, basta digitar "localhost:3000/exibe.txt")
