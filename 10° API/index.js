@@ -29,7 +29,7 @@ app.get('/home', (req, res) => {
 
 //rota api
 const dogRoutes = require('./Models/Dog');
-app.use('/', dogRoutes);
+app.use('/dog', dogRoutes);
 
 //ler
 const port = 3000;
