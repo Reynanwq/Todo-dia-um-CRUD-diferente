@@ -45,7 +45,7 @@ router.get('/', async(req, res) => {
 
 
 //atualizaação de dados
-router.update('/:id', async(req, res) = > {
+router.patch('/:id', async(req, res) = > {
   const id = req.params.id;
   const {  id, firtsName, lastName, email, telefone, Peso, Altura } = req.body;
               
