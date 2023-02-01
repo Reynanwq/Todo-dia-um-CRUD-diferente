@@ -6,6 +6,9 @@ const app = express();
 const MONGO_USERNAME = process.env.DB_USERNAME;
 const MONGO_PASSWORD = process.env.DB_PASSWORD;
 
+//leitura de arquivos estáticos
+app.use(express.static(path.resolve(_dirname, 'public')));
+
 //facilitar leitura de um arquivo json
 app.use(express.json());
 
