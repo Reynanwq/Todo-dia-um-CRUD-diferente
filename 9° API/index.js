@@ -16,7 +16,7 @@ app.use(
 
 // ROTAS DA API
 const personRoutes = require('./routes/personRoutes'); 
-app.use('/', personRoutes);
+app.use('/person', personRoutes);
 
 //ROTA INICIAL
 app.get('/home', (req, res) => {
