@@ -21,7 +21,7 @@ mongoose.connect(`mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@apirest.5yq1hjx.mo
 .catch((err) => console.log(err));
 
 const catRoutes = require('./Models/Cat');
-app.use('/', catRoutes);
+app.use('/cat', catRoutes);
 
 app.get('/home', (req, res) => {
   res.status(200).json({ message: 'Hi litle Cat'})
