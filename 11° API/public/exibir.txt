@@ -1,0 +1,3 @@
+este texto será exibido como um arquivo estático.
+
+(localhost:3000/exibir.txt)
