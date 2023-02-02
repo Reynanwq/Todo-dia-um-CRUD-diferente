@@ -7,6 +7,9 @@ const DB_PASSWORD  = process.env.DB_PASSWORD;
 
 app.use(express.json());
 
+//leitura de arquuivos estáticos
+app.use(express.static(path.resolve((_dirname, 'public')));
+
 app.use(
   express.urlencoded({
         extended: true,
