@@ -1,0 +1,8 @@
+- npm install init
+- npm install express
+- npm install nodemon
+- npm install mongoose
+- npm install dotenv
+- npm i express-session connect-mongo connect-flash
+
+API com CRUD para classificar as turmas de uma escola
