@@ -1,0 +1,3 @@
+"ISSO ESTA SENDO EXIBIDO NO NAVEGADOR"
+
+localhost:3000/exibir.txt
