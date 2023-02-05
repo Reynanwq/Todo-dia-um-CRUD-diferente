@@ -1,0 +1,7 @@
+API com CRUD contendo os acessórios de um computador.
+
+- npm init
+- npm install dotenv mongoose exprress nodemon
+- npm i express-session
+- npm i connect-mongo 
+- npm i connect-flash
