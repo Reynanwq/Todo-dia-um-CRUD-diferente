@@ -1,0 +1,5 @@
+API com CRUD a cerca das categorias de um livro presentes em uma biblioteca
+
+- npm init
+- npm install dotenv mongoose nodemon express helmet csurf
+- npm i express-sesion connect-mongo connect-flash
