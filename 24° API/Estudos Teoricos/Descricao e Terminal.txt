@@ -1,0 +1,4 @@
+API com CRUD tratando as categorias de animes
+
+- npm init
+- npm install express express-sesion mongoose nodemon dotenv helmet csurf connect-mongo connect-flash
