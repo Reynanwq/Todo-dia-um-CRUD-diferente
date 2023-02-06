@@ -1,0 +1,9 @@
+API com CRUD contendo os membros de uma igreja
+
+- npm init
+- npm install express mongoose nodemon dotenv
+- npm i connect-mongo 
+- npm install express-sesion
+- npm install connect-flash
+- npm install helmet
+- npm install csurf
