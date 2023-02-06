@@ -1,0 +1,4 @@
+API com CRUD contendo as matérias que o Reynan pegou em cada semestre da universidade 
+
+ - npm init
+ - npm install express mongoose nodemon dotenv helmet csurf connect-mongo connect-flash express-sesion
