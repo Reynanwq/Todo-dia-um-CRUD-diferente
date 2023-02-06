@@ -1,0 +1,4 @@
+API com CRUD contendo os catalogos do prime video
+
+- npm init 
+- npm install express nodemon express dotenv express-sesion helmet csurf conenct-mongo connect-flash
