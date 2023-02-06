@@ -1,0 +1,4 @@
+API com CRUD contendo os paises de cada continente 
+
+- npm init
+- npm install express mongoose nodemon dotenv connect-mongo connect-flash express-sesion helmet csurf
