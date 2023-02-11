@@ -1,0 +1,23 @@
+
+{
+    "name": "vigesima-sexta-api",
+    "version": "1.0.0",
+    "description": "api com crud sobre cadastro de carros",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./src/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "mongoose": "^6.8.3",
+        "nodemon": "^2.0.20",
+        "dotenv": "^16.0.3",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "mysql": "^2.18.1",
+    }
+}
