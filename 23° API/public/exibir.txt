@@ -1,0 +1,4 @@
+isso será exibido através do public
+
+
+localhost:3000/exibir.txt
