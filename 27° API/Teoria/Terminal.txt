@@ -1,0 +1,4 @@
+- npm init
+- npm install express ip dotenv
+- npm install mysql cors body-parser
+- npm install nodemon --save-dev
