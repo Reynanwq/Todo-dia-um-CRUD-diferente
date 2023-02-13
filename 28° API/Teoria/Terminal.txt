@@ -1,0 +1,5 @@
+ CRUD just for trainee
+ 
+ - npm init
+ - npm install express dotenv mysql cors body-parser
+ - npm install nodemon --save-dev
