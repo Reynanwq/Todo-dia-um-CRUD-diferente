@@ -7,7 +7,7 @@ Objetivo é Criar um CRUD todos os dias até o dia 05/03/2023
 
 48 CRUD em 48 dias.
 
-Criar CRUD em menos de 1 HORA
+Criar CRUD em menos de 2 HORAS
 
 > Status: Developing ⚠️
 
@@ -28,6 +28,7 @@ Criar CRUD em menos de 1 HORA
     <td>Nodemon</td>
     <td>EJS</td>
     <td>JSON</td>
+    <td>SQL</td>
     <td>Git & Github</td>
   </tr>
 </table>
