@@ -3,9 +3,9 @@
 ![crud](https://user-images.githubusercontent.com/90296084/212591147-f8178f03-a923-4f22-a336-c6c21fd7e0ec.jpg)
 
 
-Objetivo é Criar um CRUD todos os dias até o dia 05/03/2023
+Objetivo é Criar um CRUD todos os dias até o dia 31/04/2023
 
-48 CRUD em 48 dias.
+48 CRUD em 100 dias.
 
 Criar CRUD em menos de 2 HORAS
 
